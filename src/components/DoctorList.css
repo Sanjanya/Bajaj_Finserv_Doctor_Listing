@@ -1,0 +1,15 @@
+.doctor-list-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 24px;
+  }
+  
+  .doctor-list-empty {
+    text-align: center;
+    color: #888;
+    font-style: italic;
+    font-size: 1.1rem;
+    margin-top: 32px;
+  }
+  

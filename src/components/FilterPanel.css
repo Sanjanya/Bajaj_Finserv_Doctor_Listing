@@ -1,0 +1,39 @@
+.filter-panel {
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    background-color: #fafafa;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  }
+  
+  .filter-section {
+    margin-bottom: 20px;
+  }
+  
+  .filter-section h3 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .filter-section label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+    color: #444;
+    cursor: pointer;
+  }
+  
+  .filter-section input[type="radio"],
+  .filter-section input[type="checkbox"] {
+    margin-right: 8px;
+    cursor: pointer;
+  }
+  
+  .filter-section input:checked + span {
+    font-weight: bold;
+    color: #000;
+  }
+  

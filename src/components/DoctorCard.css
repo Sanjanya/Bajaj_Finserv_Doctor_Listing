@@ -1,0 +1,64 @@
+.doctor-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: #fff;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+    margin-bottom: 16px;
+  }
+  
+  .doctor-left {
+    margin-right: 16px;
+  }
+  
+  .doctor-photo {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .doctor-middle {
+    flex: 1;
+  }
+  
+  .doctor-name {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  .doctor-specialty,
+  .doctor-experience,
+  .doctor-clinic p {
+    margin: 4px 0;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .doctor-right {
+    text-align: right;
+  }
+  
+  .doctor-fee {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  .appointment-btn {
+    background: #fff;
+    border: 1px solid #1e73be;
+    color: #1e73be;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .appointment-btn:hover {
+    background: #e6f2fb;
+  }
+  
